@@ -12,7 +12,7 @@ class TestSuit(unittest.TestCase):
         data = response.json()
         if not((data['book']['id'] == 1) and (data['book']['description'] == 'first element')
                and (data['book']['title'] == 'first')):
-            self.fail("Actual responce is not as expected")
+            self.fail("Actual response is not as expected")
         print("test_1 passed")
 
 # section 2
